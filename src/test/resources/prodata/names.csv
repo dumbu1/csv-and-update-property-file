@@ -1,5 +1,5 @@
 server,url,uname,pwd
 uat,https://crossbrowsertesting.github.io/,admin,pass1
-qa,https:\\,admin1,pass2
+qa,https://crossbrowsertesting.github.io/selenium_example_page.html,admin1,pass2
 test,http:\test.com,admin2,pass3
 production, http:\\production,,pass4

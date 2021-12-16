@@ -41,7 +41,7 @@ public class PropertyModify {
 		}
 		
 		try {
-			obj_Properties.store(obj_FileOutputStream, null);
+			obj_Properties.store(obj_FileOutputStream, "data changed");
 			obj_FileOutputStream.close();
 		} catch (IOException e) {
 			e.printStackTrace();

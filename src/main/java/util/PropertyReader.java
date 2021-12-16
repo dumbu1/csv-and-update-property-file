@@ -9,7 +9,7 @@ public class PropertyReader {
 	private static 	FileInputStream obj_FileInputStream;	
 	public Properties   propetyReader() {
 		try {
-			obj_FileInputStream=new FileInputStream("");
+			obj_FileInputStream=new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/config/config.properties");
 		} catch (FileNotFoundException e) {
 			System.out.println(e);
 		}
